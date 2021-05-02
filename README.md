@@ -16,4 +16,20 @@ XXXXXXXXXXXXXXXXXX
 
 
 ### Run User Interface (UI): 
-1. Navigate into the app folder. Download  the [model weights](https://drive.google.com/file/d/1IfCCIiplXsHxU4x5_tUxLPbtH1-j2noD/view?usp=sharing) because the weights of the model are too large to be uploaded to github. Unzip and make sure that the app folder contains all of the files and folders shown in Figure 
+1. Navigate into the app folder. Download  the [model weights](https://drive.google.com/file/d/1IfCCIiplXsHxU4x5_tUxLPbtH1-j2noD/view?usp=sharing) because the weights of the model are too large to be uploaded to github. Unzip and make sure that the app folder contains all of the files and folders as shown <br> <img src="./app_directory.PNG" width="200">.
+2. Set-up for the UI locally.   
+  a. Create a virtual environment using:   
+    `python -m venv venv`  
+  b. Activate the virtual environment:    
+    - Activate the virtualenv (OS X & Linux)  
+    `venv/bin/activate` 
+    - Activate the virtualenv (Windows)  
+    `venv\Scripts\activate`  
+  c. Navigate out into the app folder. In the app folder, install the necessary libraries using   
+    `pip install -r requirements.txt`
+
+3. Run the application using:   
+   `python app.py`
+4. Choose a video clip with .avi format and upload, the result would be shown. The custom video used in the User Interface and Testing Results section can be found in the own_video folder.
+
+
