@@ -12,7 +12,10 @@ Alternatively, download and unzip the frames that [we have extracted](https://dr
 
 ### Architecture 2: 
 
-XXXXXXXXXXXXXXXXXX
+1. Step 1-3 is the same as the Architecture 1.
+2. Download the pickle file from [link](https://drive.google.com/file/d/12wsyIfR8-Ub2CBsOpTQ8-YY1__aKI-oM/view?usp=sharing).
+3. Open the jupyter notebook and run the codes accordingly for training and testing. 
+
 
 
 ### Run User Interface (UI): 
