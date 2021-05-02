@@ -18,7 +18,7 @@ Alternatively, download and unzip the frames that [we have extracted](https://dr
 
 
 
-### Run User Interface (UI): 
+## Run User Interface (UI): 
 1. Navigate into the *app* folder. Download  the [model weights](https://drive.google.com/file/d/1IfCCIiplXsHxU4x5_tUxLPbtH1-j2noD/view?usp=sharing) because the weights of the model are too large to be uploaded to github. Unzip and make sure that the *app* folder contains all of the files and folders as shown <br> <img src="./app_directory.PNG" width="200">.
 2. Set-up for the UI locally.   
   a. Create a virtual environment using:   
