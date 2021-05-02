@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    .main {
+      margin: 10px;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="main">
+    <h1>Classification of actions</h1>
+    <title>Upload new File</title>
+    <h2>Upload a .avi file only</h2>
+    <h2>Upload new File</h2>
+    <form method=post enctype=multipart/form-data>
+      <input type=file name=file>
+      <input type=submit value=Upload>
+    </form>
+
+    <br>
+    <p> <b>Note:</b> <br>The model is trained on the following 49 classes: [ApplyEyeMakeup, ApplyLipstick, Archery,
+      BabyCrawling, BalanceBeam, BandMarching, BlowDryHair, BlowingCandles, BodyWeightSquats, Bowling,
+      BoxingPunchingBag, BoxingSpeedBag, BrushingTeeth, CliffDiving, CricketBowling, CricketShot, CuttingInKitchen,
+      FieldHockeyPenalty, FloorGymnastics, FrisbeeCatch, FrontCrawl, Haircut, Hammering, HammerThrow, HandstandWalking,
+      HeadMassage, IceDancing, Knitting, LongJump, MoppingFloor, ParallelBars, PlayingCello, PlayingDaf, PlayingDhol,
+      PlayingFlute, PlayingSitar, Rafting, ShavingBeard, Shotput, SkyDiving, SoccerPenalty, StillRings, SumoWrestling,
+      Surfing, TableTennisShot, Typing, UnevenBars, WallPushups, WritingOnBoard]</p>
+  </div>
+  <div class="main">
+    <h1>Results:</h1>
+    {% if filename%}
+    <h2>Filename: {{filename}}</h2>
+    {% endif %}
+
+    {% if video_label and video_prob%}
+    <h3>Using only the visual component:</h3>
+    <p>Class: {{video_label}}</p>
+    <p>Confidence: {{video_prob}} </p>
+    {% endif %}
+
+    {% if audio_label and audio_prob%}
+    <h3>Using visual and audio components:</h3>
+    <p>Class: {{audio_label}}</p>
+    <p>Confidence: {{audio_prob}} </p>
+    {% endif %}
+  </div>
+</body>
+
+</html>
