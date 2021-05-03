@@ -28,7 +28,7 @@ Alternatively, download and unzip the frames that [we have extracted](https://dr
     `venv/bin/activate` 
     - Activate the virtualenv (Windows)  
     `venv\Scripts\activate`  
-  c. Install the necessary libraries:
+ c. Install the necessary libraries:
     - Navigate out to the *app* folder. In the *app* folder 
     `pip install -r requirements.txt`
 
