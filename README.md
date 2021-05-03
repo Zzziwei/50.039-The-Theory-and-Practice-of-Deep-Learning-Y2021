@@ -14,7 +14,7 @@ Alternatively, download and unzip the frames that [we have extracted](https://dr
 
 1. Step 1-3 is the same as the Architecture 1.
 2. Download the pickle file from [link](https://drive.google.com/file/d/12wsyIfR8-Ub2CBsOpTQ8-YY1__aKI-oM/view?usp=sharing).
-3. Open the jupyter notebook and run the codes accordingly for training and testing. 
+3. Open the jupyter notebook, *visual_and_audio_component.ipynb*, and run the codes accordingly for training and testing. 
 
 
 
@@ -28,7 +28,8 @@ Alternatively, download and unzip the frames that [we have extracted](https://dr
     `venv/bin/activate` 
     - Activate the virtualenv (Windows)  
     `venv\Scripts\activate`  
-  c. Navigate out to the *app* folder. In the *app* folder, install the necessary libraries using   
+  c. Install the necessary libraries:
+    - Navigate out to the *app* folder. In the *app* folder 
     `pip install -r requirements.txt`
 
 3. Run the application using:   
