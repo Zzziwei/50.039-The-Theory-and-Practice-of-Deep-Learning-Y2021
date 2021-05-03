@@ -5,16 +5,15 @@
 1. Obtain our version of  dataset, UCF_49 from [our dataset link](https://drive.google.com/file/d/18e6TwtREHLS2rLMXBKZx3MBm1JxjzUVF/view?usp=sharing) 
 and the [our train_test_split](https://drive.google.com/file/d/1_uBpXEo4Kf2QJYw7D-YO_inn_e1Q-Cuv/view?usp=sharing).  
 2. Git clone this entire github repository.
-3. Unzip the *UCF_49* and *train_test_split* in the same folder where the repository is cloned. <br> In the terminal, run python extract_frames.py. Wait for about 2 hours to get all the frames. <br>
+3. Unzip the *UCF_49* and *train_test_split* in the same folder where the repository is cloned. <br> In the terminal, run `python extract_frames.py`. Wait for about 2 hours to get all the frames. <br>
 Alternatively, download and unzip the frames that [we have extracted](https://drive.google.com/file/d/1tjTB_TK53-UtP3l2o7pVMeNhVL_HA7Hz/view?usp=sharing). Make sure that the frames are in the same as the *train_test_split*.
 4. Before running any model, make sure that you have *UCF_49-frames*, *train_test_split* and *visual_component.ipynb* in the same directory. Open the jupyter notebook, *visual_component.ipynb*, and run the codes accordingly for training and testing. 
 
 
 ### Architecture 2: 
 
-1. Step 1-3 is the same as the Architecture 1.
-2. Download the pickle file from [link](https://drive.google.com/file/d/12wsyIfR8-Ub2CBsOpTQ8-YY1__aKI-oM/view?usp=sharing).
-3. Open the jupyter notebook, *visual_and_audio_component.ipynb*, and run the codes accordingly for training and testing. 
+1. Step 1-3 is the same as the Architecture 1. Ensure you have extracted the video frames as described in step 3.
+2. Open the jupyter notebook, *visual_and_audio_component.ipynb*, and run the codes accordingly for training and testing. 
 
 
 
