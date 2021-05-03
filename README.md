@@ -13,7 +13,8 @@ Alternatively, download and unzip the frames that [we have extracted](https://dr
 ### Architecture 2: 
 
 1. Step 1-3 is the same as the Architecture 1. Ensure you have extracted the video frames as described in step 3.
-2. Open the jupyter notebook, *visual_and_audio_component.ipynb*, and run the codes accordingly for training and testing. 
+2. (Optional) To extract the audio features yourself, run `python audio_features_extraction.py` or simply use the `audio_features.pickle` file provided
+3. Open the jupyter notebook, *visual_and_audio_component.ipynb*, and run the codes accordingly for training and testing. 
 
 
 
